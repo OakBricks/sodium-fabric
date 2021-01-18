@@ -1,0 +1,9 @@
+dist: xenial
+language: java
+addons:
+  apt:
+    packages:
+      - maven
+      - gradle
+jdk:
+  - openjdk8
